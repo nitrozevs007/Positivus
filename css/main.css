@@ -131,6 +131,12 @@ a:hover {
   justify-content: space-between;
   margin-bottom: 140px;
 }
+.hero2 img {
+  transition: 0.1s;
+}
+.hero2 img:hover {
+  scale: 1.04;
+}
 
 .section-1 {
   display: flex;
