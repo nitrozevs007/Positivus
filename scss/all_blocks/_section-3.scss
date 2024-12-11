@@ -1,0 +1,45 @@
+.section-3 {
+    display: flex;
+    padding: 60px;
+    align-items: center;
+    background-color: #f3f3f3;
+    border-radius: 45px;
+    position: relative;
+    margin-bottom: 140px;
+
+    .text {
+
+        h4 {
+            font-weight: 500;
+            font-size: 30px;
+            margin-bottom: 26px;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 18px;
+            margin-bottom: 26px;
+            width: 500px;
+        }
+
+        button {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 140%;
+            text-align: center;
+            color: #fff;
+        }
+    }
+
+    .img-section-3 {
+
+        
+        img {
+            position: absolute;
+            right: 135px;
+            top: -24px;
+            width: 359px;
+            height: 394px;
+        }
+    }
+}

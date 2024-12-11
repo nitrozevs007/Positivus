@@ -1,0 +1,47 @@
+.section-5 {
+
+    background-color: #191A23;
+    border-radius: 45px;
+    margin-bottom: 140px;
+    padding: 70px 60px;
+
+    ul {
+
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+        li {
+
+
+            p {
+                font-weight: 400;
+                font-size: 18px;
+                color: #fff;
+                width: 286px;
+                margin-bottom: 20px;
+            }
+
+            .learnmore-2 {
+                display: flex;
+                gap: 15px;
+                align-items: center;
+
+                a {
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 140%;
+                    color: #B9FF66;
+                }
+            }
+        }
+
+        .line {
+            width: 1px;
+            height: 186px;
+            background-color: #fff;
+        }
+    }
+}

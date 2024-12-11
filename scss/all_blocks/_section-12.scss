@@ -1,0 +1,61 @@
+.section-12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #191A23;
+    border-radius: 45px;
+    padding: 84px 317px;
+
+    .frame {
+        padding: 48px 52px;
+        background-color: #191A23;
+        border-radius: 45px;
+        border: 1px solid #B9FF66;
+        margin-bottom: 40px;
+
+        p {
+            width: 502px;
+            font-weight: 400;
+            font-size: 18px;
+            color: #fff;
+        }
+    }
+
+    .personal {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 124px;
+
+        h6 {
+            font-weight: 500;
+            font-size: 20px;
+            color: #B9FF66;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 18px;
+            color: #fff;
+        }
+    }
+
+    .swappers {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 189px;
+
+        .left {
+            color: white;
+            opacity: 0.5;
+            width: 24px;
+            height: 24px;
+        }
+
+        .right {
+            color: white;
+            width: 24px;
+            height: 24px;
+        }
+    }
+}

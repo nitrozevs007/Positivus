@@ -1,0 +1,39 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 86px;
+}
+
+ul {
+    display: flex;
+    gap: 40px;
+
+    a {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 140%;
+    }
+}
+
+button {
+    border: 1px solid #191A23;
+    border-radius: 14px;
+    background: transparent;
+    padding: 20px 35px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+    color: black;
+    transition: 0.2s;
+}
+
+button:active {
+    scale: 1.05;
+}
+
+a:hover {
+    text-decoration: underline;
+}
