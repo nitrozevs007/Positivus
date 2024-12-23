@@ -15,6 +15,12 @@ ul {
         font-size: 20px;
         line-height: 140%;
     }
+
+    li {
+        #nav-shadow:hover {
+            background-color: #b9ff66;
+        }
+    }
 }
 
 button {

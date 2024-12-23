@@ -22,6 +22,7 @@
 
                 .fullname {
                     margin-left: 20px;
+
                     h6 {
                         font-weight: 500;
                         font-size: 20px;
@@ -55,3 +56,22 @@
     width: 100%;
     height: 0px;
 }
+
+.in-icon {
+    border-radius: 100%;
+}
+
+.in-icon:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #b9ff66;
+}
+
+#text-icon:hover {
+    text-shadow: 0 0 15px #b9ff66;
+}
+#in-icon:hover {
+    transform: scale(1.1);
+    text-shadow: 0 0 15px #b9ff66;
+
+}
+

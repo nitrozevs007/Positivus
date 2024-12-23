@@ -76,6 +76,9 @@ ul a {
   font-size: 20px;
   line-height: 140%;
 }
+ul li #nav-shadow:hover {
+  background-color: #b9ff66;
+}
 
 button {
   border: 1px solid #191A23;
@@ -429,6 +432,24 @@ a:hover {
   height: 0px;
 }
 
+.in-icon {
+  border-radius: 100%;
+}
+
+.in-icon:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #b9ff66;
+}
+
+#text-icon:hover {
+  text-shadow: 0 0 15px #b9ff66;
+}
+
+#in-icon:hover {
+  transform: scale(1.1);
+  text-shadow: 0 0 15px #b9ff66;
+}
+
 .section-10 {
   display: flex;
   justify-content: flex-end;
@@ -611,10 +632,20 @@ footer .footer-header ul li a {
           text-decoration-skip-ink: none;
   color: #fff;
 }
+footer .footer-header ul li a:hover {
+  transform: scale(1.1);
+  text-shadow: 0 0 15px #b9ff66;
+  color: #B9FF66;
+}
 footer .footer-header .socials {
   display: flex;
   align-items: center;
   gap: 20px;
+}
+footer .footer-header .socials img:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px #B9FF66;
+  border-radius: 100%;
 }
 footer .footer-section {
   display: flex;
