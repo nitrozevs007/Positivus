@@ -20,10 +20,11 @@ footer {
                     text-decoration-skip-ink: none;
                     color: #fff;
                 }
+
                 a:hover {
                     transform: scale(1.1);
-    text-shadow: 0 0 15px #b9ff66;
-    color: #B9FF66;
+                    text-shadow: 0 0 15px #b9ff66;
+                    color: #B9FF66;
                 }
             }
         }
@@ -34,9 +35,11 @@ footer {
             gap: 20px;
 
             img:hover {
-                transform: scale(1.1);
                 box-shadow: 0px 0px 10px #B9FF66;
                 border-radius: 100%;
+            }
+            img:active {    
+                transform: scale(1.1);
             }
         }
 
@@ -84,11 +87,21 @@ footer {
                 background-color: transparent;
                 margin: 0;
             }
+            input:focus {
+                border: 1px solid #B9FF66;
+                box-shadow: 0px 0px 15px #B9FF66, 0px 0px 15px #B9FF66 inset;
+            }
 
             button {
                 border-radius: 14px;
                 padding: 20px 35px;
                 background-color: #B9FF66;
+                border: none;
+            }
+
+            button:active {
+                box-shadow: 0px 0px 15px #B9FF66, 0px 0px 15px #B9FF66 inset;
+                border: none;
             }
         }
     }
@@ -117,4 +130,14 @@ footer {
         }
     }
 
+}
+
+
+
+.footer-input:focus {
+    
+}
+
+#footer-icon:hover {
+    box-shadow: 0px 0px 15px #B9FF66, 0px 0px 15px #B9FF66 inset;
 }

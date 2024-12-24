@@ -34,6 +34,11 @@ span {
   color: #fff;
 }
 
+.hero-1-button:active {
+  background-color: white;
+  color: black;
+}
+
 #section-1 {
   display: flex;
   align-items: center;
@@ -66,6 +71,9 @@ header {
   margin-top: 20px;
   margin-bottom: 86px;
 }
+header button:active {
+  background-color: #b9ff66;
+}
 
 ul {
   display: flex;
@@ -75,6 +83,10 @@ ul a {
   font-weight: 400;
   font-size: 20px;
   line-height: 140%;
+  transition: 0.3s;
+}
+ul a:hover {
+  transform: scale(1.1);
 }
 ul li #nav-shadow:hover {
   background-color: #b9ff66;
@@ -246,6 +258,10 @@ a:hover {
   line-height: 140%;
   text-align: center;
   color: #fff;
+}
+.section-3 .text button:active {
+  background-color: white;
+  color: black;
 }
 .section-3 .img-section-3 img {
   position: absolute;
@@ -563,6 +579,10 @@ a:hover {
   color: #fff;
   background-color: #191A23;
 }
+.section-14 .leftside button:active {
+  background-color: white;
+  color: black;
+}
 
 .input-field {
   position: relative;
@@ -643,9 +663,11 @@ footer .footer-header .socials {
   gap: 20px;
 }
 footer .footer-header .socials img:hover {
-  transform: scale(1.1);
   box-shadow: 0px 0px 10px #B9FF66;
   border-radius: 100%;
+}
+footer .footer-header .socials img:active {
+  transform: scale(1.1);
 }
 footer .footer-section {
   display: flex;
@@ -685,10 +707,19 @@ footer .footer-section .right input {
   background-color: transparent;
   margin: 0;
 }
+footer .footer-section .right input:focus {
+  border: 1px solid #B9FF66;
+  box-shadow: 0px 0px 15px #B9FF66, 0px 0px 15px #B9FF66 inset;
+}
 footer .footer-section .right button {
   border-radius: 14px;
   padding: 20px 35px;
   background-color: #B9FF66;
+  border: none;
+}
+footer .footer-section .right button:active {
+  box-shadow: 0px 0px 15px #B9FF66, 0px 0px 15px #B9FF66 inset;
+  border: none;
 }
 footer .line-3 {
   border: 1px solid white;
@@ -709,4 +740,8 @@ footer .footer-footer a {
   line-height: 156%;
   color: white;
   text-decoration: underline;
+}
+
+#footer-icon:hover {
+  box-shadow: 0px 0px 15px #B9FF66, 0px 0px 15px #B9FF66 inset;
 }/*# sourceMappingURL=main.css.map */
